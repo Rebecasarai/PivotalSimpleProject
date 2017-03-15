@@ -18,6 +18,6 @@ $ mvn jetty:run
 | Plugin/Dependencia | README |
 | ------ | ------ |
 | Jetty | [https://www.eclipse.org/jetty/documentation/9.4.x/jetty-maven-plugin.html] |
-| Primefaces | [https://github.com/primefaces/primefaces] [PlGh] |
-| Redis | [https://github.com/antirez/redis] [PlGd] |
+| Primefaces | [https://github.com/primefaces/primefaces] |
+| Redis | [https://github.com/antirez/redis] |
 
