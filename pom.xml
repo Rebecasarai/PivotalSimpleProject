@@ -33,7 +33,7 @@
 	 <artifactId>javax.faces</artifactId>
 	 <version>2.2.9</version>
         </dependency>
-        <!--<dependency>
+        <dependency>
          <groupId>redis.clients</groupId>
          <artifactId>jedis</artifactId>
          <version>2.7.2</version>
@@ -42,11 +42,11 @@
 	 <groupId>org.primefaces</groupId>
 	 <artifactId>primefaces</artifactId>
 	 <version>5.3</version>
-        </dependency>-->
+        </dependency>
     </dependencies>
     <build>
      <plugins>
-      <!--<plugin>
+      <plugin>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-maven-plugin</artifactId>
         <version>9.0.5.v20130815</version>
@@ -54,7 +54,7 @@
           <httpConnector>
            <port>9999</port>
           </httpConnector>
-          //este estaba de comentario antes
+          <!--este estaba de comentario antes
            <webAppConfig>
              <contextPath>/s4c</contextPath>
            </webAppConfig>
@@ -63,9 +63,9 @@
          implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
               <port>9096</port>
             </connector>
-           </connectors>  -->
-        <!--</configuration>
-      </plugin>-->
+           </connectors>-->
+        </configuration>
+      </plugin>
       <plugin>
          <groupId>org.apache.maven.plugins</groupId>
          <artifactId>maven-compiler-plugin</artifactId>
