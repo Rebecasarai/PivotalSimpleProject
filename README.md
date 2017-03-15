@@ -15,7 +15,7 @@ $ mvn jetty:run
 
 # Plugin y dependecias
 
-| Plugin | README |
+| Plugin/Dependencia | README |
 | ------ | ------ |
 | Jetty | [https://www.eclipse.org/jetty/documentation/9.4.x/jetty-maven-plugin.html] [PlDb] |
 | Primefaces | [https://github.com/primefaces/primefaces] [PlGh] |
